@@ -11,7 +11,7 @@ public class Three {
 			System.out.println("Vowel");
 		}
 		else if((ch>='a'&&ch<='z')|(ch>='A'&&ch<='Z')){
-			System.out.println("Constant");
+			System.out.println("Consonant");
 		}
 	else{
 		System.out.println("Invalid");
