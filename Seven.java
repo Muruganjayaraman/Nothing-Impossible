@@ -4,13 +4,12 @@ import java.util.Scanner;
 
 public class Seven {
 	public static void main(String args[]){
-		int b;
-		String a;
+		int a,sum=0;
 		Scanner in=new Scanner(System.in);
-		b=in.nextInt();
-		a=in.next();
-		for(int i=0;i<b;i++){
-			System.out.println(a);
+		a=in.nextInt();
+		for(int i=1;i<=a;i++){
+			sum=sum+i;
 		}
+		System.out.println(sum);
 	}
 }
