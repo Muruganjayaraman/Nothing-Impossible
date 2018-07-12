@@ -7,7 +7,7 @@ public class Two {
 		int a;
 		Scanner in=new Scanner(System.in);
 		a=in.nextInt();
-		if(a<=10000){
+		if(a>=0){
 		if(a%2==0){
 			System.out.println("Even");
 		}
