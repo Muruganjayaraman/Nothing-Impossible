@@ -9,7 +9,7 @@ public class Prime {
 		int a,i,count=0;
 		Scanner in=new Scanner(System.in);
 		a=in.nextInt();
-		if(a<=100){
+		if(a<=1000){
 		for(i=2;i<a;i++){
 				if(a%i==0){
 					count++;
