@@ -1,6 +1,4 @@
 package guvi;
-
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class rev {
