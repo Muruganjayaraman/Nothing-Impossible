@@ -12,7 +12,7 @@ public class Index {
 			b[i]=in.nextInt();
 		}
 		for(int c:b){
-			System.out.println((index++)+" "+c);
+			System.out.println(c+" "+(index++));
 		}
 	}
 
