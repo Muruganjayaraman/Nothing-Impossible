@@ -1,17 +1,16 @@
-package guvi;
-
 import java.util.Scanner;
 
 public class Three {
 	public static void main(String args[]){
-		char ch;
+		int a,b,sum=0;
 		Scanner in=new Scanner(System.in);
-		ch=in.next().charAt(0);
-		if((ch>='a'&&ch<='z')|(ch>='A'&&ch<='Z')){
-			System.out.println("Yes");
+		a=in.nextInt();
+		while(a!=0){
+			b=a%10;
+			sum=sum+b;
+			a/=10;
 		}
-	else{
-		System.out.println("No");
+		System.out.println(sum);
 	}
-	}
+
 }
